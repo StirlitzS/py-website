@@ -1,13 +1,13 @@
 body {
     background-color: white;
     color: white;
-    background-image: url("main-house.jpg");
+    background-image: url("photo/main-house.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
     margin: 0;
 }
-div, ul{
+div, ul, h1, p{
     margin: 0;
 }
 
@@ -69,6 +69,16 @@ div, ul{
     gap: 2px;
 }
 #main-title {
+    margin-top: 10em;
     text-align: center;
     vertical-align: center;
+}
+#main-line {
+    width: 24em;
+    height: 0.1em;
+    background-color: white;
+    margin-top:0.2em;
+    margin: 0 auto;
+    text-align: center; /* Центрирование текста внутри div */
+    margin-bottom: 50em;
 }
